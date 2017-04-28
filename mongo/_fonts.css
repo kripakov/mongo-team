@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Kaushan-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Kaushan/Kaushan-Regular.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Montserrat/Montserrat-Bold.ttf) format("truetype")
+}
+@font-face {
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Montserrat/Montserrat-Regular.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: RalewayBold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/RalewayBold/RalewayBold.eot?#iefix) format("embedded-opentype"), url(fonts/RalewayBold/RalewayBold.woff) format("woff"), url(fonts/RalewayBold/RalewayBold.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/RobotoRegular/RobotoRegular.ttf) format("truetype")
+}

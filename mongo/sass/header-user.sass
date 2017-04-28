@@ -1,0 +1,254 @@
+@import "extra-user.sass";
+@import "extra-user.sass";
+.section-8
+	background-image: url("../img/mount.gif")
+
+.section-8
+	&::before
+		@extend .before
+		background-color: #FFF
+		opacity: .85
+
+.section-7,.section-8, .section-9
+	.header-top
+		.header
+			text-align: center
+			color: #5a5858
+			&::after
+				width: 58px
+				left: 43%
+				@extend .after-bottom-line
+
+.section-7,.section-8, .section-9
+	.header-top
+		margin: 60px auto
+		margin-bottom: 90px
+		.header
+			text-align: center
+			h2
+				margin-bottom: 5px
+				font-size: 28px
+				margin-bottom: 0
+				font-family: "DancingScript-Regular"
+				font-weight: bold
+			span
+				margin-top: 5px
+				margin-bottom: 30px
+				font-size: 30px
+				font-weight: bold
+				font-family: "PatuaOne-Regular"
+		.header-text
+			position: relative
+			top: 68px
+			p 
+				text-align: center
+				font-family: "RalewayRegular"
+
+.section-8
+	.content
+		margin-bottom: 80px
+		.clients-content
+			img
+				position: relative
+				top: 35px
+				float: left
+			.author-content
+				margin-left: 160px
+				margin-right: 75px
+				.author,.clients-text
+					color: #5a5858
+				.author
+					margin-top: 23px
+					&::after
+						width: 58px
+						top: 13px
+						@extend .after-bottom-line;
+					h4
+						margin-bottom: 5px
+						font-family: "PatuaOne-Regular"
+					span
+						font-family: 'Exo-LightItalic', cursive;
+						font-style: italic
+				.clients-text
+					text-align: justify
+					margin-top: 35px
+					p
+						font-size: 15px
+						font-family: "RalewayRegular"
+						font-weight: bold
+.section-9
+	margin-bottom: 115px
+	.content
+		.img-content
+			margin-bottom: -82px
+			img
+				width: 375px
+				height: 235px
+				margin-bottom: 20px
+				margin-right: 15px
+		.calendar
+			display: block
+			position: relative
+			background-color: #95e1d3
+			width: 60px
+			height: 70px
+			top: -110px
+			left: -10px
+			color: #FFF
+			text-align: center
+			border-radius: 2px
+			h3
+				margin: 0
+				font-family: "RobotoRegular"
+				font-size: 29px
+				font-weight: 900
+				margin-bottom: -8px
+				span
+					font-family: "RobotoRegular"
+					font-style: italic
+
+		.comment-content
+			.content
+				display: block
+				height: 120px
+				h2
+					font-size: 16px
+					color: black
+					font-family: "PatuaOne-Regular"
+				p
+					text-align: justify
+					font-size: 14px
+					font-family: "RalewayRegular"
+			.comment
+				ul
+					@extend .ulmnu
+					.visitor
+						margin-right: 25px
+						a
+							color: #000000
+							font-family: "RalewayRegular"
+					.comm
+						a
+							color: #000000
+							font-family: "RalewayRegular"
+
+			.borber-content
+				top: -7px
+				background-color: #e5e5e5
+				height: 1px
+				@extend .after-bottom-line
+
+.section-10
+	.header-top
+		background-image: url("../img/map.gif")
+		min-height: 200px
+		margin-bottom: 70px
+	.header
+		text-align: center
+		padding-top: 55px
+		h2
+			&::after
+				width: 58px
+				top: 13px
+				left: 44%
+				@extend .after-bottom-line;
+			font-size: 27px
+			margin-bottom: 20px
+			color: #f38181
+			font-weight: bold
+	.content
+		.subscribe
+			img
+				margin-bottom: 44px
+			p 
+				text-align: justify
+				margin-bottom: 50px
+				font-family: "RalewayRegular"
+	.followers
+		.followers-bottom
+			&::after
+				top: 13px
+				height: 1px
+				background-color: #e5e5e5
+				@extend .after-bottom-line;
+			font-weight: 700
+			font-size: 23px
+			font-family: "RalewayRegular"
+		.followers-soccial
+			margin-top: 30px
+			.followers-img
+				span
+					font-style: italic
+					margin-right: 20px
+					font-family: "RalewayRegular"
+				a
+					margin-right: 10px
+	.input-subscribe
+		margin-top: 40px
+		.input-group
+			padding: 17px
+		.input-group-addon
+			background-color: #95e1d3
+			font-size: 17px
+			font-weight: bold
+			color: #FFF
+	.blog
+		h4
+			margin-bottom: 40px
+		.blog-content
+			margin-bottom: 30px
+			.content-text
+				display: block
+				float: right
+				position: relative
+				left: 0
+				width: 210px
+				padding-top: 12px
+				p 
+					text-transform: uppercase
+					line-height: 17px
+					font-size: 13px
+					font-family: "RalewayRegular"
+			.content-celendar
+				p
+					font-size: 12px
+	.instagramm
+		margin-bottom: 38px
+		.instagramm-image
+			margin-top: 15px
+			margin-bottom: 15px
+		.instagramm-show-image
+			a 
+			 	font-family: "RalewayRegular"
+
+.section-7
+	.content-author
+		margin-right: 90px
+
+.hover12 figure img 
+	opacity: 1
+	-webkit-transition: .3s ease-in-out
+	transition: .3s ease-in-out
+	box-shadow: 1px 1px 3px transparent
+	height: 410px
+
+.hover12 
+	figure 
+		img:hover
+			opacity: .5
+			background: #ee8989
+			background: -moz-linear-gradient(top,  #ee8989 0%, #efd888 100%, #2989d8 100%, #207cca 100%)
+			background: -webkit-linear-gradient(top,  #ee8989 0%,#efd888 100%,#2989d8 100%,#207cca 100%)
+			background: linear-gradient(to bottom,  #ee8989 0%,#efd888 100%,#2989d8 100%,#207cca 100%)
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee8989', endColorstr='#207cca',GradientType=0 )
+
+.hover12
+	.author
+		text-align: center
+		h2
+			font-size: 19px
+			text-transform: uppercase
+			font-family: "PatuaOne-Regular"
+		span
+			color: #9a9898
+			font-family: 'Exo-LightItalic', cursive;

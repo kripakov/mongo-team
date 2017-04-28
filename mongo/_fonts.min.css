@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Kaushan-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Kaushan/Kaushan-Regular.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Montserrat/Montserrat-Bold.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: DancingScript-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Dancing_Script/DancingScript-Regular.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: DancingScript-Bold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Dancing_Script/DancingScript-Bold.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: Exo-LightItalic;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Exo/Exo-LightItalic.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: PatuaOne-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Patua_One/PatuaOne-Regular.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/RobotoBold/RobotoRegular.ttf) format("truetype")
+}
+
+@font-face {
+  font-family: RalewayRegular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/RalewayRegular/RalewayRegular.ttf) format("truetype")
+}
